@@ -1,0 +1,93 @@
+.navBar {
+    display: flex;
+    width: 1440px;
+    padding: 10px 40px;
+    align-items: flex-start;
+}
+.navRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hero {
+    height: 200px;
+    width: 1378px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.heroLeft {
+    left: 0;
+    background-color: white;
+}
+.heroRight {
+    right: 0;
+    background: orange
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white
+}
+.footer {
+        text-align: center;
+        padding: 3px;
+        background-color: black;
+        color: white;
+}
+
+.projects {
+    display: flex;
+    width: 1376px;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 109px;
+}
+
+.projectContent {
+    display: flex;
+    width: 1375px;
+    height: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.projectTwo {
+    display: flex;
+    width: 1376px;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
+.projectThree {
+    display: flex;
+    width: 1376px;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
+.headingProjects {
+    display: flex;
+    width: 1376;
+    padding: 12pc 10px 20px 10px;
+    justify-content: center;
+    align-items: center
+    gap:10px
+}
